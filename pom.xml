@@ -19,7 +19,7 @@
     <parent>
         <groupId>com.emu.apps.starter</groupId>
         <artifactId>spring-boot-starter-bom</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0</version>
     </parent>
 
     <properties>
@@ -63,5 +63,13 @@
 
         </plugins>
     </build>
+
+    <repositories>
+        <repository>
+            <id>webmarks.net</id>
+            <name>webmarks.net Repository</name>
+            <url>http://webmarks.net/repository</url>
+        </repository>
+    </repositories>
 
 </project>
