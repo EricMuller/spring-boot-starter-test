@@ -9,3 +9,7 @@
 <version>0.0.1-SNAPSHOT</version>
  </parent>
  ```
+
+Test with sonar:
+
+- clean install sonar:sonar -Prun-sonar
