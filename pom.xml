@@ -3,6 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>com.emu.apps.starter</groupId>
+        <artifactId>spring-boot-starter-bom</artifactId>
+        <version>1.5.14.RELEASE</version>
+    </parent>
+
     <groupId>com.emu.apps.sample</groupId>
     <artifactId>spring-boot-starter-test</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -16,21 +22,14 @@
         <developerConnection>scm:git:git@github.com:EricMuller/spring-boot-starter-test.git</developerConnection>
     </scm>
 
-    <parent>
-        <groupId>com.emu.apps.starter</groupId>
-        <artifactId>spring-boot-starter-bom</artifactId>
-        <version>1.0</version>
-    </parent>
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <sonar.language>java</sonar.language>
-
         <sonar.host.url>http://brix:9000</sonar.host.url>
-
     </properties>
 
     <dependencies>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
